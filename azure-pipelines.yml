@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: '8d1ab1f6-6687-48ad-91e1-b01e2c0eb797'
   imageRepository: 'carml'
   containerRegistry: 'acrdevwe001.azurecr.io'
-  dockerfilePath: '**/Dockerfile'
+  dockerfilePath: 'buildinfo/docker/Dockerfile'
   tag: '$(Build.BuildId)'
 
   # Agent VM image name
